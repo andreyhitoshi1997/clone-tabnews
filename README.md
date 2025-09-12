@@ -1,2 +1,2 @@
 # clone-tabnews
-Proejto do tabnews do zero
+Projeto do tabnews do zero
