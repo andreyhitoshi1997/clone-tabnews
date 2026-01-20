@@ -14,10 +14,10 @@
   "author": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npm run services:up && nextdev",
-    "services:up": "docker-compose -f infra/compose.dev.yml up -d",
-    "services:stop": "docker-compose -f infra/compose.dev.yml stop",
-    "services:down": "docker-compose -f infra/compose.dev.yml down",
+    "dev": "npm run services:up && next dev",
+    "services:up": "docker compose -f infra/compose.yaml up -d",
+    "services:stop": "docker compose -f infra/compose.yaml stop",
+    "services:down": "docker compose -f infra/compose.yaml down",
     "test": "jest",
     "test:watch": "jest --watchAll"
   },
